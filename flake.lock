@@ -21,11 +21,11 @@
         "nixpkgs": "nixpkgs"
       },
       "locked": {
-        "lastModified": 1783018709,
-        "narHash": "sha256-1DEnXBZKKjJqfjObnHEAuYS4l0Qw+sR3JJRf7/9TNaI=",
+        "lastModified": 1783654976,
+        "narHash": "sha256-E8dFlV0tp0iVD2u8IdaBDZrIVm4BSUvb/f5lBVO9AVY=",
         "owner": "fixed-labs",
         "repo": "oss",
-        "rev": "a52459d5ca1fe69e3e750e7f79228956a31163ca",
+        "rev": "ac61c924b6053dd697172856277089d3756dbd89",
         "type": "github"
       },
       "original": {
