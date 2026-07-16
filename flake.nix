@@ -37,6 +37,8 @@
                 pkgs.jq
               ];
 
+              services.tailscale.enable = true;
+
               # Base-module options are available under `rift.devboxes-base`:
               # rift.devboxes-base.loginUser = "dev";
             }
