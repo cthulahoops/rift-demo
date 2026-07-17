@@ -32,15 +32,21 @@
             { pkgs, ... }:
             {
               environment.systemPackages = [
+                pkgs.gh
                 pkgs.go
-                pkgs.ripgrep
                 pkgs.jq
+                pkgs.neovim
+                pkgs.nodejs_24
+                pkgs.ripgrep
               ];
+
+              programs.bash.promptInit = ''
+                export PS1='\h:\w\$ '
+              '';
 
               services.tailscale.enable = true;
 
-              # Base-module options are available under `rift.devboxes-base`:
-              # rift.devboxes-base.loginUser = "dev";
+              rift.devboxes-base.loginUser = "akelly";
             }
           )
         ];
